@@ -7,3 +7,4 @@ mkdir ~/Desktop/$name;
 for i in 40 60 58 87 80 120 180 20 29 76 152 167;
 do cp ${1} ~/Desktop/$name/${i}.png | sips -Z ${i} ~/Desktop/$name/${i}.png;
 done;
+
